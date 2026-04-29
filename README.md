@@ -14,25 +14,95 @@
 
 ## **2\. Features**
 
+### Landing Page
+Hero section with value proposition, cultural framing, and a "Get started" call to action.
+
+![Landing Page](screenshots/01-landing-page.png)
+
+### Onboarding
+Guided 3-step personalisation: name, preferred reading level, and interest areas. Target language is passed from the parent app.
+
+| Step 1: Name | Step 2: Level | Step 3: Interests |
+|---|---|---|
+| ![Name](screenshots/02-onboarding-step-1-name.png) | ![Level](screenshots/04-onboarding-step-3-level.png) | ![Interests](screenshots/05-onboarding-step-4-interests.png) |
+
+### Home Screen
+Main screen showing a "snapshot" of the user's reading: number of stories in progress, stories read, and total re-reads. The screen has two states: on the user's first visit it surfaces a "Start here" story; on subsequent visits it shows the story they are currently working on. Both states include a "more stories" section.
+
+![Home Screen](screenshots/06-dashboard.png)
+
+### Story Library
+Browsable catalogue of stories grouped by cultural topic (Food & Markets, Community & Local Life, Outdoors & Encounters, Traditions & Celebrations), filtered by the user's selected language and skill level.
+
+![Story Library](screenshots/07-story-library.png)
+
+### Pre-Reading
+Story cover image, cultural teaser, and the types of vocabulary and cultural nuggets they'll learn.
+
+| Cover & Teaser | Theme Selection |
+|---|---|
+| ![Pre-Reading](screenshots/08-pre-reading.png) | ![Themes](screenshots/08b-pre-reading-themes.png) |
+
+### First Read
+Full story text presented as a clean read. On the very first read, only a small selection of words and phrases are tap-to-gloss enabled to encourage immersion. Audio playback is available at normal speed and at a slower speed (0.75x).
+
+| Read Introduction | Story Text with Audio |
+|---|---|
+| ![First Read](screenshots/09-first-read.png) | ![Story Text](screenshots/09b-first-read-text.png) |
+
+### Rate & Review / Feedback
+Users rate their own comprehension on a 5-point emoji scale (Lost, Foggy, Getting there, Solid, Crystal clear) and (optionally) provide feedback via a two-question survey anchored in the top navigation bar.
+
+| Comprehension Rating | Feedback Form |
+|---|---|
+| ![Rate and Review](screenshots/10-rate-and-review.png) | ![Feedback](screenshots/10b-feedback-form.png) |
+
+### Scaffolding / Unpacking
+After the first read: cultural nuggets, vocabulary highlights, phrase breakdowns, a "What Stuck" summary of memorable words, and a "What Opened Up" summary of cultural insights.
+
+![Scaffolding](screenshots/11-scaffolding.png)
+
+### Bilingual Re-Read
+User reads the story again with side-by-side translations and tap-to-gloss fully enabled.
+
+![Bilingual Re-Read](screenshots/12-bilingual-reread.png)
+
+### Story Order Activity
+Reorder scrambled story sentences to demonstrate narrative comprehension. Can be skipped during the first-read flow; if skipped, it is added to the Activities hub.
+
+![Story Order](screenshots/13-story-order.png)
+
+### Re-Rate (Self-Assessment)
+User re-scores their comprehension after scaffolding (before/after comparison shown). The self-assessment also persists at the top of the Story Unit Hub, where users can re-rate themselves at any time. After completing a few activities from the hub, users are nudged to re-rate; this nudge can be muted/unmuted from Settings.
+
+![Rate Again](screenshots/14-rate-again.png)
+
+### Great First Read (Celebration)
+Celebration screen showing growth summary, with options to pick a recommended next story, go to activities, or re-read.
+
+![Great First Read](screenshots/15-great-first-read.png)
+
+### Personal Notebook
+A persistent reference with five tabs: Words, Phrases, Cultural insights, free-form Notes, and a guided Journal with rotating reflection prompts.
+
+![Notebook](screenshots/16-notebook.png)
+
+### Settings
+Users can update their name, skill level, and interests at any time. Also allows users to enable/disable the self-assessment re-rate nudge, and shows their purchases (if any) and Memrise account connection status when linked.
+
+![Settings](screenshots/17-settings.png)
+
+### Additional Features (no screenshot captured)
+
 | Feature | Description |
-| ----- | ----- |
-| **Onboarding** | Guided 3-step personalisation: name, preferred reading level, and interest areas. Target language is passed from the parent app. |
-| **Story Library** | Browsable catalogue of stories grouped by cultural topic (Food & Markets, Community & Local Life, Outdoors & Encounters, Traditions & Celebrations), filtered by the user's selected language and skill level. |
-| **Structured Reading Flow** | A multi-phase guided sequence for first-time reads: Pre-Reading, First Read, Rate & Review, Scaffolding/Unpacking, Bilingual Re-Read, Story Order activity (skippable), Re-Rate, and Celebration screen. |
+|---|---|
 | **Story Unit Hub** | After completing the first-time read flow, users land on a hub for each story instead of repeating the full linear flow — they can re-read, review scaffolding, or jump into activities. |
-| **Tap-to-Gloss Translation** | Tap any word during reading to see its translation. On the very first read, only a small selection of words and phrases are tap-to-gloss enabled to encourage immersion; tap-to-gloss is then fully enabled on all subsequent reads. |
-| **Audio Narration** | Full story audio playback with a slower-speed option (0.75x) for learners who want a gentler pace. Audio is pre-recorded and hardcoded for the launch stories so it loads instantly. |
-| **Story Images** | Each story ships with a hardcoded cover image (in its native ratio) and a blur placeholder that shows while the full image loads. |
-| **Self-Assessment Scoring** | Users rate their own comprehension twice during the first-read flow — once immediately after reading and again after scaffolding/activities — so they can see their perceived growth. The self-assessment also persists at the top of the Story Unit Hub, where users can re-rate themselves at any time. After completing a few activities from the hub, users are nudged to re-rate; this nudge can be muted/unmuted from Settings. |
-| **Scaffolding / Unpacking** | After the first read: cultural nuggets, vocabulary highlights, phrase breakdowns, a "What Stuck" summary of memorable words, and a "What Opened Up" summary of cultural insights. |
-| **Story Order Activity** | Reorder scrambled story sentences to demonstrate narrative comprehension. Can be skipped during the first-read flow; if skipped, it is added to the Activities hub. |
 | **Post-Reading Activities** | Sentence Building (word tiles), Vocabulary Review, and Culture Quiz activities available after the core flow. |
 | **Spaced Review** | A review interface that surfaces words the learner rated "tricky" or "no idea" through Phrase Recall, Vocabulary, and Cultural Insight multiple-choice activities. Scoring at least 50% advances the story's progress state. |
-| **Personal Notebook** | A persistent reference with five tabs: Words, Phrases, Cultural insights, free-form Notes, and a guided Journal with rotating reflection prompts. |
+| **Tap-to-Gloss Translation** | Tap any word during reading to see its translation. On the very first read, only a small selection of words and phrases are tap-to-gloss enabled to encourage immersion; tap-to-gloss is then fully enabled on all subsequent reads. |
+| **Audio Narration** | Full story audio playback with a slower-speed option (0.75x). Audio is pre-recorded and hardcoded for the launch stories so it loads instantly. |
+| **Story Images** | Each story ships with a hardcoded cover image (in its native ratio) and a blur placeholder that shows while the full image loads. |
 | **Vocabulary Confidence Rating** | Word-level mastery tracking where learners rate each word as "got it", "tricky", or "no idea" — these ratings feed into the spaced review system. |
-| **Feedback Collection** | A two-question feedback survey anchored in the top navigation bar, available throughout the app. |
-| **Settings** | Users can update their name, skill level, and interests at any time. Also allows users to enable/disable the self-assessment re-rate nudge, and shows their purchases (if any) and Memrise account connection status when linked. |
-| **Home Screen** | Main screen showing a "snapshot" of the user's reading: number of stories in progress, stories read, and total re-reads. The screen has two states: on the user's first visit it surfaces a "Start here" story; on subsequent visits it shows the story they are currently working on. Both states include a "more stories" section. |
 | **Premium / Paywall Infrastructure** | Content gating system that distinguishes free and premium stories. Currently one default story per language is free; the rest require premium status. A one-time purchase checkout flow exists. *Note: this is currently an experiment toward a longer-term monetisation system.* |
 | **Logout & Data Reset** | Users can log out of their session and/or reset their personal data (progress, notebook, preferences). |
 
@@ -156,24 +226,50 @@
 
 ### **7.1 First-Time User Flow**
 
-1. User arrives at the landing page, sees the hero section and value cards  
-2. User clicks "Get started"  
-3. Onboarding Step 1: User enters their name  
-4. Onboarding Step 2: User selects their preferred reading level  
-5. Onboarding Step 3: User picks interests (or skips)  
-6. User is redirected to the Stories Dashboard
+1. User arrives at the landing page, sees the hero section and value cards
+   ![Landing Page](screenshots/01-landing-page.png)
+
+2. User clicks "Get started"
+
+3. Onboarding Step 1: User enters their name
+   ![Onboarding - Name](screenshots/02-onboarding-step-1-name.png)
+
+4. Onboarding Step 2: User selects their preferred reading level
+   ![Onboarding - Level](screenshots/04-onboarding-step-3-level.png)
+
+5. Onboarding Step 3: User picks interests (or skips)
+   ![Onboarding - Interests](screenshots/05-onboarding-step-4-interests.png)
+
+6. User is redirected to the Home Screen
+   ![Home Screen](screenshots/06-dashboard.png)
 
 ### **7.2 First-Time Story Reading Flow**
 
-1. User is pointed to the free story they can start with from the Dashboard or Library  
-2. **Pre-Reading:** User sees the story cover image, cultural teaser, and the types of vocabulary and cultural nuggets they'll learn  
-3. **First Read:** User reads the full story text (only selected tap-to-gloss). Audio playback is available at normal speed and at a slower speed.  
-4. **Rate & Review:** User rates their comprehension and (optionally) provides feedback via the two-question survey  
-5. **Scaffolding:** User explores vocabulary, slang, and cultural nuggets, plus "What Stuck" and "What Opened Up" summaries.  
-6. **Bilingual Re-Read:** User reads the story again with side-by-side translations and tap-to-gloss enabled  
-7. **Story Order:** User reorders scrambled sentences (or skips)  
-8. **Re-Rate:** User re-scores their comprehension (before/after comparison shown)  
-9. **Great First Read:** Celebration screen showing growth summary, with options pick a recommended next story, to go to activities, or to re-read
+1. User is pointed to the free story they can start with from the Home Screen or Library
+
+2. **Pre-Reading:** User sees the story cover image, cultural teaser, and the types of vocabulary and cultural nuggets they'll learn
+   ![Pre-Reading](screenshots/08-pre-reading.png)
+
+3. **First Read:** User reads the full story text (only selected tap-to-gloss). Audio playback is available at normal speed and at a slower speed.
+   ![First Read](screenshots/09b-first-read-text.png)
+
+4. **Rate & Review:** User rates their comprehension and (optionally) provides feedback via the two-question survey
+   ![Rate & Review](screenshots/10-rate-and-review.png)
+
+5. **Scaffolding:** User explores vocabulary, slang, and cultural nuggets, plus "What Stuck" and "What Opened Up" summaries.
+   ![Scaffolding](screenshots/11-scaffolding.png)
+
+6. **Bilingual Re-Read:** User reads the story again with side-by-side translations and tap-to-gloss enabled
+   ![Bilingual Re-Read](screenshots/12-bilingual-reread.png)
+
+7. **Story Order:** User reorders scrambled sentences (or skips)
+   ![Story Order](screenshots/13-story-order.png)
+
+8. **Re-Rate:** User re-scores their comprehension (before/after comparison shown)
+   ![Rate Again](screenshots/14-rate-again.png)
+
+9. **Great First Read:** Celebration screen showing growth summary, with options to pick a recommended next story, go to activities, or re-read
+   ![Great First Read](screenshots/15-great-first-read.png)
 
 ### **7.3 Return-Visit Story Flow**
 
@@ -198,11 +294,12 @@
 
 ### **7.6 Notebook Usage Flow**
 
-1. While reading or exploring scaffolding, user saves words, phrases, or cultural insights  
-2. User navigates to the Notebook page  
-3. User browses saved items across tabs (Words, Phrases, Cultural, Notes, Journal)  
-4. User can add saved items to activities (words to vocab review, cultural notes to culture quiz)  
-5. User can write free-form notes or journal reflections using guided prompts  
+1. While reading or exploring scaffolding, user saves words, phrases, or cultural insights
+2. User navigates to the Notebook page
+   ![Notebook](screenshots/16-notebook.png)
+3. User browses saved items across tabs (Words, Phrases, Cultural, Notes, Journal)
+4. User can add saved items to activities (words to vocab review, cultural notes to culture quiz)
+5. User can write free-form notes or journal reflections using guided prompts
 6. User can delete individual entries
 
 ### **7.7 Premium Unlock Flow**
@@ -217,9 +314,10 @@
 
 ### **7.8 Settings Update Flow**
 
-1. User navigates to Settings  
-2. User modifies name, level, or interests via collapsible sections  
-3. User clicks "Save changes" (disabled until there are actual changes)  
+1. User navigates to Settings
+   ![Settings](screenshots/17-settings.png)
+2. User modifies name, level, or interests via collapsible sections
+3. User clicks "Save changes" (disabled until there are actual changes)
 4. Preferences are saved, learner profile is synced, and user is redirected to the Stories page
 
 ---
